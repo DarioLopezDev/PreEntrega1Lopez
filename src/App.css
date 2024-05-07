@@ -1,9 +1,9 @@
-/* .Navbar {
+.Navbar {
   display: flex;
   flex-direction: row;
   align-items: normal;
   
-} */
+}
 
 #nav-dropdown {
   display: flex;
@@ -16,28 +16,26 @@
   flex-direction: column;
 }
 
-/* .navdropdownitem {
+.navdropdownitem {
   display: flex;
   flex-direction: column;
-} */
+}
 
 .logoPrincipal img{
   width: 25%;
   display: flex;
 }
 .cartWidget img {
-  width: 250%;
+  width: 150%;
+  margin-right: 15px;
   background-color: chartreuse;
   border-radius: 15%;
   display: flex;
-}
-
-div {
-  display: flex;
+  align-items: center;
 }
 
 a {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .navbartop {
   width: 100%;
@@ -45,4 +43,16 @@ a {
   justify-content: space-between;
   border-color: antiquewhite;
   border-style: solid;
+}
+
+.inventario {
+  display: flex;
+  flex-direction: column;
+}
+.inventario div {
+  display: flex;
+}
+
+.inventario div h1 {
+  display: flex;
 }
