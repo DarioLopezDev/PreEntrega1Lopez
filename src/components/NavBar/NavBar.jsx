@@ -1,35 +1,32 @@
-import React from 'react'
+import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-const NavBar = () => {
-  const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
+function NavBar () {
   return (
-      <Nav className="Navbar" variant="pills" activeKey="1" onSelect={handleSelect}>
-        <Nav.Item>
-          <Nav.Link eventKey="1" href="#/home">
-            Home
-          </Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="2" title="Item">
-            Ofertas
-          </Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="3" disabled>
-            Contacto
-          </Nav.Link>
-        </Nav.Item>
-        <NavDropdown title="Categorias" id="nav-dropdown">
-          <NavDropdown.Item eventKey="4.1" className='navdropdownitem'>Gaseosas</NavDropdown.Item>
-          <NavDropdown.Item eventKey="4.2" className='navdropdownitem'>Cervezas</NavDropdown.Item>
-          <NavDropdown.Item eventKey="4.3" className='navdropdownitem'>Aperitivos</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item eventKey="4.4" className='navdropdownitem'>Vinos</NavDropdown.Item>
-        </NavDropdown>
-      </Nav>
-  );
+    <Navbar data-bs-theme="dark" expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="/">LyA</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/Ofertas">Ofertas</Nav.Link>
+            <Nav.Link href="/Contacto">Contacto</Nav.Link>
+            <NavDropdown title="Categorias" id="basic-nav-Categorias">
+              <NavDropdown.Item href="#action/3.1">Gaseosas</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Cervezas</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Aperitivos</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">Vinos</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.5">Almacen</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  )
 }
 
 export default NavBar
