@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter, Router, Route } from 'react-router-dom';
 import logo from "./assets/img/logo.png"
 import cartWidget from "./assets/img/cart3.svg"
 import circleNumber from "./assets/img/circle-fill.svg"
 import './App.css'
-import NavBar from "./components/NavBar.jsx";
-import ItemListContainer from './components/ItemListContainer.jsx';
+import NavBar from "./components/NavBar/NavBar.jsx";
+import ItemListContainer from './components/ItemListContainer/ItemListContainer.jsx';
 
 
 function App() {
