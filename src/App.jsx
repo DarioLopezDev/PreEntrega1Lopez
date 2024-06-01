@@ -13,10 +13,7 @@ function App() {
       <div className='logoPrincipal'>
         <img src={logo} alt="logoPrincipal" />
       </div>
-      <div className='cartWidget'>
-        <img src={cartWidget} alt="cartwidget"/>
-        <img src={circleNumber} alt="circleNumber"/>
-      </div>
+      
     </nav>
     <div className='inventario'> */}
       <AppRouter/>

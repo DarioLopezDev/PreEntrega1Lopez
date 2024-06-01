@@ -1,8 +1,8 @@
-import React from 'react'
+import ItemListContainer from '../../components/ItemListContainer/ItemListContainer'
 
-const Categorias = () => {
+function Categorias () {
   return (
-    <div>Categorias</div>
+    <ItemListContainer/>
   )
 }
 

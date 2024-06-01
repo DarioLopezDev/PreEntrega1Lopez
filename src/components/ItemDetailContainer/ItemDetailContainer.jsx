@@ -1,9 +1,11 @@
 import {useState, useEffect} from 'react'
-import ItemList from '../ItemList/ItemList';
 import { useParams } from 'react-router-dom';
+/* import {ItemDetail} from '../ItemDetail/ItemDetail.jsx' */
+const ItemDetailContainer = () => {
+const [items, setItems] = useState({
 
-const ItemListContainer = () => {
-const [items, setItems] = useState([])
+
+})
 const {id} = useParams()
 
 useEffect(() => {
@@ -18,11 +20,12 @@ fetch (`./src/assets/dB/dB.json`)
   .then(results => setItems(results))
 },[id])
 
+
   return (
     <div>
-      <ItemList items = {items}/>
+     {/*  <p>REACT DEJO DE FUNCIONAR</p><ItemDetail/> */}
     </div>
   )
 }
 
-export default ItemListContainer
+export default ItemDetailContainer
