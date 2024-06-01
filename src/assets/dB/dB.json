@@ -1,0 +1,332 @@
+[
+    {
+        "id": 1,
+        "categoria": "Gaseosas",
+        "marca": "Coca Cola",
+        "sabor": "Original",
+        "medida": 375,
+        "precio": 450,
+        "stock": 10,
+        "imagen": "CocaColaOriginal375.webp"
+    },
+    {
+        "id": 2,
+        "categoria": "Gaseosas",
+        "marca": "Coca Cola",
+        "sabor": "Original",
+        "medida": 3000,
+        "precio": 2400,
+        "stock": 8,
+        "imagen": "CocaColaOriginal3000.webp"
+    },
+    {
+        "id": 3,
+        "categoria": "Gaseosas",
+        "marca": "Sprite",
+        "sabor": "Lima Limon",
+        "medida": 3000,
+        "precio": 2200,
+        "stock": 12,
+        "imagen": "SpriteLimaLimon3000.webp"
+    },
+    {
+        "id": 4,
+        "categoria": "Gaseosas",
+        "marca": "Fanta",
+        "sabor": "Naranja",
+        "medida": 3000,
+        "precio": 2200,
+        "stock": 13,
+        "imagen": "FantaNaranja3000.webp"
+    },
+    {
+        "id": 5,
+        "categoria": "Gaseosas",
+        "marca": "Paso De Los Toros",
+        "sabor": "Pomelo",
+        "medida": 2250,
+        "precio": 1800,
+        "stock": 15,
+        "imagen": "PasoDeLosTorosPomelo2250.webp"
+    },
+    {
+        "id": 6,
+        "categoria": "Gaseosas",
+        "marca": "Mirinda",
+        "sabor": "Manzana",
+        "medida": 2250,
+        "precio": 1750,
+        "stock": 9,
+        "imagen": "MirindaManzana2250.webp"
+    },
+    {
+        "id": 7,
+        "categoria": "Gaseosas",
+        "marca": "Pepsi",
+        "sabor": "Original",
+        "medida": 2250,
+        "precio": 1700,
+        "stock": 7,
+        "imagen": "PepsiOriginal2250.webp"
+    },
+    {
+        "id": 8,
+        "categoria": "Gaseosas",
+        "marca": "Pepsi",
+        "sabor": "Original",
+        "medida": 3000,
+        "precio": 1500,
+        "stock": 16,
+        "imagen": "PepsiOriginal3000.webp"
+    },
+    {
+        "id": 9,
+        "categoria": "Cervezas",
+        "marca": "Quilmes",
+        "sabor": "Clasica",
+        "medida": 473,
+        "precio": 1230,
+        "stock": 24,
+        "imagen": "QuilmesClasica473.webp"
+    },
+    {
+        "id": 10,
+        "categoria": "Cervezas",
+        "marca": "Imperial",
+        "sabor": "Clasica",
+        "medida": 473,
+        "precio": 1430,
+        "stock": 30,
+        "imagen": "ImperialClasica473.webp"
+    },
+    {
+        "id": 11,
+        "categoria": "Cervezas",
+        "marca": "Imperial",
+        "sabor": "Golden",
+        "medida": 473,
+        "precio": 1550,
+        "stock": 32,
+        "imagen": "ImperialGolden473.webp"
+    },
+    {
+        "id": 12,
+        "categoria": "Cervezas",
+        "marca": "Brahma",
+        "sabor": "Clasica",
+        "medida": 473,
+        "precio": 1470,
+        "stock": 23,
+        "imagen": "BrahmaClasica473.webp"
+    },
+    {
+        "id": 13,
+        "categoria": "Cervezas",
+        "marca": "Corona",
+        "sabor": "Clasica",
+        "medida": 330,
+        "precio": 1170,
+        "stock": 35,
+        "imagen": "CoronaClasica330.webp"
+    },
+    {
+        "id": 14,
+        "categoria": "Cervezas",
+        "marca": "Corona",
+        "sabor": "Clasica",
+        "medida": 410,
+        "precio": 1670,
+        "stock": 37,
+        "imagen": "CoronaClasica410.webp"
+    },
+    {
+        "id": 15,
+        "categoria": "Cervezas",
+        "marca": "Corona",
+        "sabor": "Clasica",
+        "medida": 710,
+        "precio": 2170,
+        "stock": 43,
+        "imagen": "CoronaClasica710.webp"
+    },
+    {
+        "id": 16,
+        "categoria": "Aperitivos",
+        "marca": "Fernet Branca",
+        "sabor": "Clasico",
+        "medida": 450,
+        "precio": 5070,
+        "stock": 17,
+        "imagen": "FernetBrancaClasico450.webp"
+    },
+    {
+        "id": 17,
+        "categoria": "Aperitivos",
+        "marca": "Fernet Branca",
+        "sabor": "Clasico",
+        "medida": 750,
+        "precio": 8070,
+        "stock": 5,
+        "imagen": "FernetBrancaClasico750.webp"
+    },
+    {
+        "id": 18,
+        "categoria": "Aperitivos",
+        "marca": "Americano Gancia",
+        "sabor": "Lima Limon",
+        "medida": 450,
+        "precio": 2070,
+        "stock": 27,
+        "imagen": "AmericanoGanciaLimaLimon450.webp"
+    },
+    {
+        "id": 19,
+        "categoria": "Aperitivos",
+        "marca": "Americano Gancia",
+        "sabor": "Lima Limon",
+        "medida": 950,
+        "precio": 4070,
+        "stock": 11,
+        "imagen": "AmericanoGanciaLimaLimon950.webp"
+    },
+    {
+        "id": 20,
+        "categoria": "Aperitivos",
+        "marca": "Campari",
+        "sabor": "Original",
+        "medida": 750,
+        "precio": 7070,
+        "stock": 14,
+        "imagen": "CampariOriginal750.webp"
+    },
+    {
+        "id": 21,
+        "categoria": "Aperitivos",
+        "marca": "Campari",
+        "sabor": "Original",
+        "medida": 1000,
+        "precio": 9060,
+        "stock": 4,
+        "imagen": "CampariOriginal1000.webp"
+    },
+    {
+        "id": 22,
+        "categoria": "Vinos",
+        "marca": "Norton Cosecha Tardia",
+        "sabor": "Blanco",
+        "medida": 750,
+        "precio": 3100,
+        "stock": 14,
+        "imagen": "NortonCosechaTardiaBlanco750.webp"
+    },
+    {
+        "id": 23,
+        "categoria": "Vinos",
+        "marca": "Norton Cosecha Tardia",
+        "sabor": "Tinto",
+        "medida": 750,
+        "precio": 3000,
+        "stock": 12,
+        "imagen": "NortonCosechaTardiaTinto750.webp"
+    },
+    {
+        "id": 24,
+        "categoria": "Vinos",
+        "marca": "Santa Julia",
+        "sabor": "Chenin Blanco Dulce",
+        "medida": 750,
+        "precio": 4000,
+        "stock": 15,
+        "imagen": "SantaJuliaCheninBlancoDulce750.webp"
+    },
+    {
+        "id": 25,
+        "categoria": "Vinos",
+        "marca": "Santa Julia",
+        "sabor": "Malbec",
+        "medida": 750,
+        "precio": 4200,
+        "stock": 17,
+        "imagen": "SantaJuliaMalbec750.webp"
+    },
+    {
+        "id": 26,
+        "categoria": "Vinos",
+        "marca": "Chacabuco",
+        "sabor": "Malbec",
+        "medida": 750,
+        "precio": 4300,
+        "stock": 17,
+        "imagen": "ChacabucoMalbec750.webp"
+    },
+    {
+        "id": 27,
+        "categoria": "Vinos",
+        "marca": "Fran",
+        "sabor": "Malbec",
+        "medida": 750,
+        "precio": 4400,
+        "stock": 19,
+        "imagen": "FranMalbec750.webp"
+    },
+    {
+        "id": 28,
+        "categoria": "Vinos",
+        "marca": "Fond De Cave",
+        "sabor": "Malbec",
+        "medida": 750,
+        "precio": 6700,
+        "stock": 3,
+        "imagen": "FondDeCaveMalbec750.webp"
+    },
+    {
+        "id": 29,
+        "categoria": "Vinos",
+        "marca": "Piatelli",
+        "sabor": "Malbec",
+        "medida": 750,
+        "precio": 7700,
+        "stock": 2,
+        "imagen": "PiatelliMalbec750.webp"
+    },
+    {
+        "id": 30,
+        "categoria": "Almacen",
+        "marca": "Molino Rojo",
+        "sabor": "Durazno",
+        "medida": 820,
+        "precio": 1700,
+        "stock": 31,
+        "imagen": "MolinoRojoDurazno820.webp"
+    },
+    {
+        "id": 31,
+        "categoria": "Almacen",
+        "marca": "Ledesma",
+        "sabor": "Azucar",
+        "medida": 1000,
+        "precio": 700,
+        "stock": 22,
+        "imagen": "LedesmaAzucar1000.webp"
+    },
+    {
+        "id": 32,
+        "categoria": "Almacen",
+        "marca": "CBSE",
+        "sabor": "Hierbas Serranas",
+        "medida": 1000,
+        "precio": 3700,
+        "stock": 35,
+        "imagen": "CBSEHierbasSerranas1000.webp"
+    },
+    {
+        "id": 33,
+        "categoria": "Almacen",
+        "marca": "Cachamate",
+        "sabor": "Seleccion",
+        "medida": 500,
+        "precio": 2500,
+        "stock": 24,
+        "imagen": "CachamateSeleccion500.webp"
+    }
+]
