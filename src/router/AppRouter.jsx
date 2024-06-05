@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 
-import Home from "../Views/Home/Home.jsx"
+import ItemListContainer from '../components/ItemListContainer/ItemListContainer'
 import Ofertas from "../Views/Ofertas/Ofertas.jsx"
 import Contacto from "../Views/Contacto/Contacto.jsx"
 import Categorias from "../Views/Categorias/Categorias.jsx"
@@ -12,11 +12,11 @@ function AppRouter() {
         <BrowserRouter>
             <NavBar/>
             <Routes>
-                <Route path="/" element={<Home/>}/>
+                <Route path="/" element={<ItemListContainer/>}/>
                 <Route path="/Ofertas" element={<Ofertas />}/>
                 <Route path="/Contacto" element={<Contacto />}/>
-                <Route path="/category/:id" element={<Categorias/>}/>
-                <Route path="/item/:id" element={<ItemDetailContainer/>}/>
+                <Route path="/category/:id" element={<ItemListContainer/>}/>
+                <Route path="/item/:id" element={<ItemDetailContainer itemId={2}/>}/>
             </Routes>
         </BrowserRouter>
     )

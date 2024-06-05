@@ -1,4 +1,5 @@
 import {useState, useEffect} from 'react'
+/* import solicitarDatos from '../../helpers/SolicitarDatos';     */  
 import ItemList from '../ItemList/ItemList';
 import { useParams } from 'react-router-dom';
 

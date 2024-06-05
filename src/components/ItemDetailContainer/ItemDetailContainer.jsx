@@ -1,29 +1,36 @@
 import {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom';
-/* import {ItemDetail} from '../ItemDetail/ItemDetail.jsx' */
-const ItemDetailContainer = () => {
-const [items, setItems] = useState({
+import ItemDetail from '../ItemDetail/ItemDetail.jsx'
+import data from "../../../src/assets/dB/dB.json";
+/* import solicitarDatos from '../../helpers/SolicitarDatos.js'; */
 
-
-})
+function ItemDetailContainer ({itemId}) {
+const [item, setItem] = useState(null)
 const {id} = useParams()
 
-useEffect(() => {
-  if (!id){
-  fetch ('./src/assets/dB/dB.json')
-  .then(res => res.json())
-  .then(results => setItems(results))
-  return
+function verDetallesPorId (id){
+return new Promise ((resolve,reject) => {
+  const item = data.find ((el) => el.id === id);
+  if (item) {
+    resolve (item)
+  } else {
+    reject ({
+      error : "no se encontro el producto"
+    })
+  }
+})
 }
-fetch (`./src/assets/dB/dB.json`)
-  .then(res => res.json())
-  .then(results => setItems(results))
-},[id])
+useEffect(() => {
+verDetallesPorId (itemId)
+  .then((results) => {
+    setItem(results);
+    })
+},[itemId])
 
 
   return (
     <div>
-     {/*  <p>REACT DEJO DE FUNCIONAR</p><ItemDetail/> */}
+      {item && <ItemDetail item = {item}/>}
     </div>
   )
 }
