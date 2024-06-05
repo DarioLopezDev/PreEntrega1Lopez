@@ -6,7 +6,6 @@ import { useParams } from 'react-router-dom';
 const ItemListContainer = () => {
 const [items, setItems] = useState([])
 const categoria = useParams().categoria;
-console.log (categoria);
 
 function solicitarDatos () {
   return new Promise ((resolve,reject) => {

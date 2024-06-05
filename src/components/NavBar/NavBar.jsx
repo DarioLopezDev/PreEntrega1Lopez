@@ -9,6 +9,9 @@ function NavBar () {
   return (
     <Navbar data-bs-theme="light" expand="lg" className="bg-body-tertiary">
       <Container>
+            <div as={Link} to={`/`}>
+            <img src={"../../../src/assets/img/logoreducido.png"} alt="logo"/>
+            </div>
         <Navbar.Brand as={Link} to= {`/`}>LyA</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

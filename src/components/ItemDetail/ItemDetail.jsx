@@ -12,6 +12,8 @@ function ItemDetail  ({item})  {
                             <b>Categoria</b>: {item.categoria}
                             <br/>
                             <b>Precio</b>: {item.precio}
+                            <br/>
+                            <b>Stock Disponible</b>: {item.stock}
                         </Card.Text>
                           <Counter/>
                     </Card.Body>

@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 function Counter() {
     const [number, SetNumber] = useState(0);
 
+    
     const sumar = () => {
         SetNumber(number + 1);
     }
