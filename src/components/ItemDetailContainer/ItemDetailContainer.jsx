@@ -2,11 +2,10 @@ import {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom';
 import ItemDetail from '../ItemDetail/ItemDetail.jsx'
 import data from "../../../src/assets/dB/dB.json";
-/* import solicitarDatos from '../../helpers/SolicitarDatos.js'; */
 
-function ItemDetailContainer ({itemId}) {
+function ItemDetailContainer () {
 const [item, setItem] = useState(null)
-const {id} = useParams()
+const id = useParams().id;
 
 function verDetallesPorId (id){
 return new Promise ((resolve,reject) => {
@@ -21,11 +20,11 @@ return new Promise ((resolve,reject) => {
 })
 }
 useEffect(() => {
-verDetallesPorId (itemId)
+verDetallesPorId (Number(id))
   .then((results) => {
     setItem(results);
     })
-},[itemId])
+},[id])
 
 
   return (

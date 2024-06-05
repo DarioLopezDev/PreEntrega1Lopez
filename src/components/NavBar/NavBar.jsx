@@ -4,7 +4,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import cartWidget from "../../assets/img/cart3.svg"
 import { Link } from 'react-router-dom';
-Link
 
 function NavBar () {
   return (
@@ -18,12 +17,12 @@ function NavBar () {
             <Nav.Link as={Link} to={`/ofertas`}>Ofertas</Nav.Link>
             <Nav.Link as={Link} to={`/contacto`}>Contacto</Nav.Link>
             <NavDropdown title="Categorias" id="basic-nav-Categorias">
-              <NavDropdown.Item as={Link} to= {`/category/categoryId`}>Gaseosas</NavDropdown.Item>
-              <NavDropdown.Item href="/category/Cervezas">Cervezas</NavDropdown.Item>
-              <NavDropdown.Item href="/category/Aperitivos">Aperitivos</NavDropdown.Item>
-              <NavDropdown.Item href="/category/Vinos">Vinos</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to= {`/category/Gaseosas`}>Gaseosas</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to= {`/category/Cervezas`}>Cervezas</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to= {`/category/Aperitivos`}>Aperitivos</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to= {`/category/Vinos`}>Vinos</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/category/Almacen">Almacen</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to= {`/category/Almacen`}>Almacen</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
